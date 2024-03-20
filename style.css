@@ -1,0 +1,47 @@
+
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 28, 50);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #2e6ee5;
+  }
+
+.col{
+    padding-left: 7px;  
+}
+.gallery {
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+ }
+.gallery img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom:5px; 
+    filter: grayscale(100%);
+ }
+ .gallery img:hover{
+    filter: grayscale(0%);
+ } 
+  
